@@ -32,3 +32,55 @@ p {
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+/* Page 2 */
+
+.main-pg2 {
+  border: 2px solid black;
+  margin-left: 0rem;
+  margin-right: 40rem;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+p2 {
+  color: grey;
+  border: 2px solid black;
+  padding-right: 15rem;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+p3 {
+  margin-left: 5rem;
+  color: grey;
+  border: 2px solid black;
+  padding-right: 20rem;
+  border-radius: 5px;
+}
+
+p4 {
+  display: block;
+  color: grey;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  padding-bottom: 150px;
+  border-radius: 5px;
+}
+
+p5 {
+  display: inline;
+  margin-left: 400px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+  display: block;
+  margin-right: 430px;
+}
