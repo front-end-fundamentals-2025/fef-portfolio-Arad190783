@@ -14,6 +14,12 @@ header {
   text-align: center;
 }
 
+.a1 {
+  color: white;
+  padding-left: 3rem;
+  margin-left: 0;
+}
+
 p1 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -27,12 +33,6 @@ ul {
   margin-top: 5px;
   text-align: center;
   display: flex;
-  color: white;
-}
-
-a {
-  color: black;
-  padding-left: 3rem;
   color: white;
 }
 
@@ -67,7 +67,7 @@ header {
 h1 {
   color: white;
   font-family: "Montserrat", serif;
-  margin-left: 42.5%;
+  margin-left: 43.5%;
 }
 
 .fname-box {
@@ -134,4 +134,20 @@ h1 {
   display: grid;
   margin-left: 35%;
   margin-right: 35%;
+}
+
+/* my works page */
+
+a {
+  color: white;
+}
+
+.work-figures {
+  margin-left: 0;
+}
+
+/* footer of pages */
+footer {
+  border-top: 2px solid white;
+  margin-top: 50px;
 }
