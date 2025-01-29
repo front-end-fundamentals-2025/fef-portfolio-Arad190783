@@ -67,7 +67,8 @@ p {
   border-radius: 5px;
 }
 
-h1 {
+h1,
+h2 {
   color: white;
   font-family: "Montserrat", serif;
   margin-left: 0;
@@ -154,6 +155,95 @@ a {
 .work-imgs {
   width: 70%;
 }
+
+.ghost-reaper-pic {
+  width: 20%;
+}
+
+.ghost-reaper-text {
+  color: white;
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.ghost-reaper-main {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.rick-sanchez-pic {
+  width: 30%;
+}
+
+.rick-sanchez-text {
+  color: white;
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.rick-sanchez-main {
+  display: flex;
+}
+
+.porsche-flyer-pic {
+  width: 20%;
+}
+
+.porsche-flyer-text {
+  color: white;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.porsche-flyer-main {
+  display: flex;
+}
+
+.grafik-design-pic {
+  width: 100%;
+}
+
+.grafik-design-text {
+  color: white;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.grafik-design-main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.restaurant-logo-pic {
+  width: 100%;
+}
+
+.restaurant-logo-text {
+  color: white;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.restaurant-logo-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.DT-IA-pic {
+  width: 100%;
+}
+
+.DT-IA-text {
+  color: white;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.DT-IA-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* resopoinsive website */
 
 @media screen and (min-width: 575px) {
   .all-works-preview {
