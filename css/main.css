@@ -150,6 +150,9 @@ a {
 .work-figures {
   margin-left: 0;
   padding-left: 10px;
+  animation-name: presentation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 }
 
 .work-imgs {
@@ -303,4 +306,11 @@ a {
 footer {
   border-top: 2px solid white;
   margin-top: 50px;
+}
+
+/* animation for my works */
+@keyframes presentation {
+  25% {
+    transform: scale(1.05);
+  }
 }
