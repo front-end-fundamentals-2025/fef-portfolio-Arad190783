@@ -155,6 +155,12 @@ a {
   animation-timing-function: ease-in-out;
 }
 
+a:hover,
+.work-figures:hover {
+  animation-name: hover-scale;
+  animation-duration: 1.5s;
+}
+
 .work-imgs {
   width: 70%;
 }
@@ -310,6 +316,12 @@ footer {
 
 /* animation for my works */
 @keyframes presentation {
+  25% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes hover-scale {
   25% {
     transform: scale(1.05);
   }
