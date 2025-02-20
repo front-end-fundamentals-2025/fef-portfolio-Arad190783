@@ -317,7 +317,7 @@ footer {
 /* animation for my works */
 @keyframes presentation {
   25% {
-    transform: scale(0.95);
+    transform: scale(1.05);
   }
 }
 
