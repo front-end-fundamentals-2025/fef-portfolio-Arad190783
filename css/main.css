@@ -317,12 +317,12 @@ footer {
 /* animation for my works */
 @keyframes presentation {
   25% {
-    transform: scale(1.05);
+    transform: scale(0.95);
   }
 }
 
 @keyframes hover-scale {
-  25% {
+  50% {
     transform: scale(1.05);
   }
 }
